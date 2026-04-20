@@ -13,14 +13,14 @@
 *,
 *::before,
 *::after{
-  box-sizing: border-box;
-  margin: 0;
+  margin: 0; 
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--bg-c);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text-c);
   line-height: 1.5;
 }
@@ -100,18 +100,33 @@ h1,h2,h3{
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.55);
 }
 
 .wrap-hero-section{
   position: relative;
-  max-width: 600px;
-  color: #fff;
-  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
   margin-left: 5%;
+  padding: 2rem;
+  color: #fff;
   background: rgba(0,0,0,.4);
   border-radius: 12px;
   backdrop-filter: blur(5px);
+
+  /* 🔥 FIX CLAVE */
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.wrap-hero-section h1{
+  margin-bottom: 1rem;
+}
+
+.wrap-hero-section p{
+  max-width: 400px;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 /** LOGOS **/
