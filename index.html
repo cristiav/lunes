@@ -1,319 +1,530 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
   <title>DAVIbank</title>
+
   <link rel="stylesheet" href="styles.css">
-<script src="https://t.contentsquare.net/uxa/cacebeb43cba4.js"></script>
-  <!-- Google Tag Manager (REEMPLAZA TU ID) -->
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NGLD738P');</script>
-<!-- End Google Tag Manager -->
 
 </head>
+
 <body>
-
-
-  <!-- GTM BODY -->
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGLD738P"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
   <!-- HEADER -->
   <header class="header-landing">
+
     <div class="wrap-logo">
-      <img src="img/DaviBank_Logo_PNG.png" alt="" class="logo-header">
+
+      <img
+        src="img/DaviBank_Logo_PNG.png"
+        alt="Logo DAVIbank"
+        class="logo-header">
+
     </div>
+
+    <!-- MENU -->
+    <nav class="menu">
+
+      <ul>
+
+        <li>
+          <a href="#home">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="#tienda">
+            Tienda
+          </a>
+        </li>
+
+        <li>
+          <a href="#blog">
+            Blog
+          </a>
+        </li>
+
+        <li>
+          <a href="#contacto">
+            Contacto
+          </a>
+        </li>
+
+        <li>
+          <a href="#carrito">
+            Carrito
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+    <!-- MINI CARRITO -->
+    <div class="mini-carrito">
+
+      🛒 <span id="contador-carrito">0</span>
+
+      | Total:
+      <span id="mini-total">$0 COP</span>
+
+    </div>
+
   </header>
 
   <!-- HERO -->
-  <section class="hero-section">
+  <section
+    id="home"
+    class="hero-section">
+
     <div class="wrap-hero-section">
+
       <h1>DAVIbank</h1>
-      <p>Si te gusta acumular puntos, millas, descuentos en tus compras y más: Elige bien.</p>
+
+      <p>
+        Si te gusta acumular puntos,
+        millas y beneficios:
+        Elige bien.
+      </p>
+
       <div class="wrap-cta">
-        <a href="/" class="cta-a" onclick="eventoCTA()">Ver Más</a>
+
+        <a
+          href="#tienda"
+          class="cta-a"
+          onclick="eventoCTA()">
+
+          Ver Más
+
+        </a>
+
       </div>
+
     </div>
+
+  </section>
+
+  <!-- CATEGORIAS -->
+  <section class="section">
+
+    <div class="wrap-title-section">
+
+      <h2>
+        Categorías
+      </h2>
+
+    </div>
+
+    <div class="wrap-servicios-section">
+
+      <div class="item-servicios-section">
+
+        <img src="img/tarjeta gris.png">
+
+        <h3>Tarjetas Básicas</h3>
+
+        <p>
+          Productos básicos y seguros.
+        </p>
+
+      </div>
+
+      <div class="item-servicios-section">
+
+        <img src="img/tarjeta dorada.png">
+
+        <h3>Tarjetas Premium</h3>
+
+        <p>
+          Beneficios exclusivos.
+        </p>
+
+      </div>
+
+      <div class="item-servicios-section">
+
+        <img src="img/tarjeta black2.png">
+
+        <h3>Tarjetas Black</h3>
+
+        <p>
+          Experiencia VIP.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section two-column-section">
+
+    <div class="wrap-two-column">
+
+      <div class="wrap-img_two-column">
+
+        <img src="img/p11.webp">
+
+      </div>
+
+      <div class="wrap-img_two-column">
+
+        <div class="wrap-text-column">
+
+          <h2>
+            Nosotros
+          </h2>
+
+          <p>
+
+            DAVIbank ofrece soluciones
+            financieras modernas con
+            beneficios exclusivos,
+            seguridad y promociones.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </section>
 
   <!-- BENEFICIOS -->
   <section class="section">
+
     <div class="wrap-title-section">
-      <h2>Beneficios</h2>
+
+      <h2>
+        Beneficios
+      </h2>
+
     </div>
+
     <div class="wrap-servicios-section">
-      <div class="item-servicios-section"><p>✔ Acumula puntos</p></div>
-      <div class="item-servicios-section"><p>✔ Descuentos exclusivos</p></div>
-      <div class="item-servicios-section"><p>✔ Compras seguras</p></div>
-      <div class="item-servicios-section"><p>✔ Beneficios que no todos pueden tener</p></div>
-      <div class="item-servicios-section"><p>✔ Ofertas solo para clientes especiales</p></div>
-      <div class="item-servicios-section"><p>✔ Accede a ventajas únicas</p></div>
-      <div class="item-servicios-section"><p>✔ Sé parte de algo exclusivo</p></div>
+
+      <div class="item-servicios-section">
+
+        <h3>✔ Puntos</h3>
+
+        <p>
+          Acumula puntos por compras.
+        </p>
+
+      </div>
+
+      <div class="item-servicios-section">
+
+        <h3>✔ Seguridad</h3>
+
+        <p>
+          Compras protegidas.
+        </p>
+
+      </div>
+
+      <div class="item-servicios-section">
+
+        <h3>✔ Descuentos</h3>
+
+        <p>
+          Promociones exclusivas.
+        </p>
+
+      </div>
+
     </div>
+
   </section>
 
-  <!-- CTA 1 -->
+  <!-- CTA -->
   <section class="section cta-center">
-    <h2>Solicita tu tarjeta ahora</h2>
-    <a href="#" class="cta-a" onclick="eventoCTA()">Solicitar</a>
+
+    <h2>
+      Solicita tu tarjeta ahora
+    </h2>
+
+    <br>
+
+    <a
+      href="#contacto"
+      class="cta-a">
+
+      Comenzar
+
+    </a>
+
   </section>
 
-  <!-- LOGOS -->
-  <section class="section logos-section">
-    <div class="wrap-logos-section">
-      <a href="https://www.bancolombia.com" target="_blank">
-  <img src="img/bancolombia.png" class="logo-brand">
-</a>
-     <a href="https://www.bancodeoccidente.com.co" target="_blank">
-  <img src="img/bancoocc.webp" class="logo-brand">
-</a>
+  <!-- TIENDA -->
+  <section
+    id="tienda"
+    class="section servicios-section">
 
-<a href="https://www.bancodebogota.com" target="_blank">
-  <img src="img/bogota.webp" class="logo-brand">
-</a>
-
-<a href="https://www.davivienda.com" target="_blank">
-  <img src="img/davivienda.webp" class="logo-brand">
-</a>
-
-<a href="https://www.enel.com.co" target="_blank">
-  <img src="img/codensa.jpg" class="logo-brand">
-</a>
-    </div>
-  </section>
-   <!-- TESTIMONIOS -->
-  <section class="section">
     <div class="wrap-title-section">
-      <h2>Testimonios</h2>
-    </div>
-    <div class="wrap-servicios-section">
-      <div class="item-servicios-section">
-        <p>“El servicio es excelente, todo fue rápido y sin complicaciones.”</p><strong>- Monica Diaz</strong>
-      </div>
-      <div class="item-servicios-section">
-        <p>“La plataforma es muy fácil de usar, en minutos ya estaba comprando.”</p><strong>- Carlos Perez</strong>
-      </div>
-      <div class="item-servicios-section">
-        <p>“Me encantó que puedo acumular puntos mientras compro.”</p><strong>- Oscar Ortiz</strong>
-      </div>
-            <div class="item-servicios-section">
-        <p>“Los descuentos realmente valen la pena, sí se siente el ahorro.”</p><strong>- Danna Medina</strong>
-      </div>
-            <div class="item-servicios-section">
-        <p>“He ahorrado bastante gracias a las promociones.”</p><strong>- Samuel Dipata</strong>
-      </div>
-    </div>
-  </section>
 
-  <!-- SERVICIOS (YA TENÍAS) -->
- <section class="section servicios-section">
-    <div class="wrap-title-section">
-      <h2>Nuetros Productos</h2>
+      <h2>
+        Nuestros Productos
+      </h2>
+
     </div>
 
     <div class="wrap-servicios-section">
-      <a href="" class="item-servicios-section">
-        <img src="img/tarjeta gris.png" alt="">
-          <p>Tarjeta Recards</p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/tarjeta azul.png" alt="">
-          <p>Tarjeta Compartida
-          </p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/tarjeta dorada.png" alt="">
-          <p>Tarjeta Golden</p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/linea.png" alt="">
-          <p>Tarjeta Virtual</p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/tarjeta roja.png" alt="">
-          <p>Tarjeta Clasica</p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/tarjeta pro.png" alt="">
-          <p>Tarjeta pro</p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/tarjeta black2.png" alt="">
-          <p>Tajeta Black</p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/PriceSmart.png" alt="">
-          <p>Tarjeta PriceSmart</p>
-        </img>
-      </a>
-      <a href="" class="item-servicios-section">
-        <img src="img/Terpel.png" alt="">
-          <p>Tarjeta Vive Terpel</p>
-        </img>
-      </a>
-    </div>
-  </section>
 
-  <!-- EXPLICACIÓN -->
-  <section class="section two-column-section">
-    <div class="wrap-title-section">
-      <h2>Características</h2>
-    </div>
-    <div class="wrap-two-column">
-      <div class="wrap-img_two-column">
-        <img src="img/p11.webp">
+      <!-- PRODUCTO 1 -->
+      <div class="item-servicios-section">
+
+        <img
+          src="img/tarjeta gris.png">
+
+        <h3>Tarjeta Recards</h3>
+
+        <p>$80.000 COP</p>
+
+        <button
+          class="cta-a"
+          onclick="agregarProducto('Tarjeta Recards',80000)">
+
+          Agregar al carrito
+
+        </button>
+
       </div>
-      <div class="wrap-img_two-column">
-        <div class="wrap-text-column">
-          <h3>Buenas Tarjetas</h3>
-          <p>Más que una tarjeta, una forma de avanzar.</p>
-          <a href="/" class="cta-a">Ver Más</a>
-        </div>
+
+      <!-- PRODUCTO 2 -->
+      <div class="item-servicios-section">
+
+        <img
+          src="img/tarjeta azul.png">
+
+        <h3>Tarjeta Compartida</h3>
+
+        <p>$120.000 COP</p>
+
+        <button
+          class="cta-a"
+          onclick="agregarProducto('Tarjeta Compartida',120000)">
+
+          Agregar al carrito
+
+        </button>
+
       </div>
+
+      <!-- PRODUCTO 3 -->
+      <div class="item-servicios-section">
+
+        <img
+          src="img/tarjeta dorada.png">
+
+        <h3>Tarjeta Golden</h3>
+
+        <p>$150.000 COP</p>
+
+        <button
+          class="cta-a"
+          onclick="agregarProducto('Tarjeta Golden',150000)">
+
+          Agregar al carrito
+
+        </button>
+
+      </div>
+
     </div>
+
   </section>
 
-  <!-- CTA 2 -->
-  <section class="section cta-center">
-    <h2>No esperes más</h2>
-    <a href="#" class="cta-a" onclick="eventoCTA()">Empieza ahora</a>
-  </section>
+  <!-- BLOG -->
+  <section
+    id="blog"
+    class="section">
 
-  <!-- FAQ -->
-  <section class="section">
     <div class="wrap-title-section">
-      <h2>Preguntas mas frecuentes</h2>
+
+      <h2>Blog</h2>
+
     </div>
-    <div class="wrap-text-column">
-      <p><strong>¿Cómo solicito?</strong> Llena el formulario.</p>
-      <p><strong>¿Costo?</strong> Depende de la tarjeta.</p>
-      <p><strong>¿Cómo puedo acumular puntos?</strong>Acumulas puntos automáticamente por cada compra que realices en la plataforma.</p>
-      <p><strong>¿Los puntos tienen vencimiento?</strong>Sí, los puntos tienen una vigencia determinada. Puedes usarlos antes de que expiren para obtener beneficios. </p>
-      <p><strong>¿Cómo canjeo mis puntos?</strong>Puedes canjearlos directamente al momento de pagar o en la sección de recompensas. </p>
-      <p><strong>¿Los descuentos aplican a todos los productos?</strong>Algunos descuentos aplican a productos seleccionados. Siempre verás las condiciones antes de comprar. </p>
-      <p><strong>¿Puedo usar varios descuentos al mismo tiempo?</strong>Depende de la promoción, pero en muchos casos solo se permite uno por compra. </p>
+
+    <div class="wrap-servicios-section">
+
+      <div class="item-servicios-section">
+
+        <h3>
+          Cómo acumular puntos
+        </h3>
+
+        <p>
+          Aprende a aprovechar
+          tus compras.
+        </p>
+
+      </div>
+
+      <div class="item-servicios-section">
+
+        <h3>
+          Beneficios premium
+        </h3>
+
+        <p>
+          Descubre ventajas exclusivas.
+        </p>
+
+      </div>
+
+      <div class="item-servicios-section">
+
+        <h3>
+          Compras seguras
+        </h3>
+
+        <p>
+          Consejos para proteger
+          tus pagos.
+        </p>
+
+      </div>
+
     </div>
+
   </section>
 
-  <!-- FORMULARIO -->
-<section class="section two-column-section form">
+  <!-- CONTACTO -->
+  <section
+    id="contacto"
+    class="section two-column-section form">
 
     <div class="wrap-title-section">
-      <h2>Formulario de Contacto</h2>
+
+      <h2>
+        Formulario de Contacto
+      </h2>
+
     </div>
 
     <div class="wrap-two-column">
 
       <div class="wrap-img_two-column">
-        <div class="wrap-text-column">
-          <h3>Contacta con nosotros</h3>
 
-          <form action="procesar_formulario.php" method="post" class="form">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" required="">
+        <div class="wrap-text-column">
+
+          <form
+            class="form"
+            onsubmit="eventoFormulario()">
+
+            <label>Nombre:</label>
+
+            <input
+              type="text"
+              required>
+
             <br><br>
-            
-            <label for="asunto">Asunto:</label>
-            <input type="text" name="asunto" id="asunto" required="">
+
+            <label>Correo:</label>
+
+            <input
+              type="email"
+              required>
+
             <br><br>
-            
-            <label for="mensaje">Mensaje:</label>
-            <br>
-            <textarea name="mensaje" id="mensaje" rows="4" cols="40" required=""></textarea>
+
+            <label>Teléfono:</label>
+
+            <input
+              type="tel"
+              required>
+
             <br><br>
-            
-            <input type="submit" value="Enviar" class="cta-a">
+
+            <label>Asunto:</label>
+
+            <input
+              type="text"
+              required>
+
+            <br><br>
+
+            <label>Mensaje:</label>
+
+            <textarea
+              rows="4"
+              required></textarea>
+
+            <br><br>
+
+            <input
+              type="submit"
+              value="Enviar"
+              class="cta-a">
+
           </form>
 
         </div>
+
       </div>
 
-      <div class="wrap-img_two-column">
-        <img src="img/p1.png" alt="">
-      </div>
     </div>
-  </section>
-
-    <!-- AQUÍ VA HUBSPOT -->
-<script src="https://js.hsforms.net/forms/embed/51366054.js" defer>
-  
-</script>
-<div class="hs-form-frame" data-region="na1" data-form-id="ac53f557-07fe-4bfe-97d7-2dff5e9aa9fa" data-portal-id="51366054"></div>
 
   </section>
 
-  <!-- PRE FOOTER -->
-  <section class="section cta-center">
-    <h2>¿Listo para empezar?</h2>
-    <a href="#" class="cta-a">Contáctanos</a>
+  <!-- CARRITO -->
+  <section
+    id="carrito"
+    class="section cta-center">
+
+    <h2>
+      Carrito de Compras
+    </h2>
+
+    <div id="texto-carrito"></div>
+
+    <br>
+
+    <h3>Total:</h3>
+
+    <p id="precio-total">
+      $0 COP
+    </p>
+
+    <br>
+
+    <button
+      class="cta-a"
+      onclick="vaciarCarrito()">
+
+      Vaciar carrito
+
+    </button>
+
   </section>
 
-  <!-- FOOTER (IGUAL) -->
-<footer class="footer-section">
-    <div class="wrap-footer-section">
-      <div class="wrap-social-logos">
-        <ul>
-          <li>
-            <a href="">
-              <img src="img/facebook.jpg" alt="" class="social-logo">
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="img/Twitter.png" alt="" class="social-logo">
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="img/youtube.jpg" alt="" class="social-logo">
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="img/Instagram.webp" alt="" class="social-logo">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  <!-- FOOTER -->
+  <footer class="footer-section">
 
-    <div class="menu-footer-section">
-      <div class="wrap-menu-footer-section">
-        <ul>
-          <li><a href=""></a>Inicio</li>
-          <li><a href=""></a>Servicios</li>
-          <li><a href=""></a>Quienes Somos</li>
-          <li><a href=""></a>Blog</li>
-          <li><a href=""></a>Contacto</li>
-        </ul>
-      </div>
-    </div>
+    <div class="footer-creds">
 
-    <div class="menu-footer-section">
-      <div class="footer-creds">
-        <p>©El trabjado de Daniel el profe  2026 - Todos los derechos reservados.</p>
-      </div>
+      <p>
+        © DAVIbank 2026
+      </p>
+
     </div>
 
   </footer>
 
-
   <script src="script.js"></script>
 
 </body>
+
 </html>
